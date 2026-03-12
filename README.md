@@ -27,9 +27,9 @@ Edit `config.py` to add or remove monitored locations:
 
 ```python
 ZIP_CODES = {
-    "76524": "Eddy, TX",
-    "50613": "Cedar Falls, IA",
-    "59715": "Bozeman, MT",
+    "10001": "New York, NY",
+    "90210": "Beverly Hills, CA",
+    "60601": "Chicago, IL",
 }
 ```
 
