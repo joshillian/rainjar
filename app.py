@@ -1,4 +1,4 @@
-"""Raindrop — local rainfall monitor dashboard."""
+"""Rainjar — local rainfall monitor dashboard."""
 
 import streamlit as st
 import pandas as pd
@@ -19,8 +19,8 @@ from weather import (
     monthly_normals,
 )
 
-st.set_page_config(page_title="Raindrop", page_icon="🌧️", layout="wide")
-st.title("🌧️ Raindrop — Rainfall Monitor")
+st.set_page_config(page_title="Rainjar", page_icon="🌧️", layout="wide")
+st.title("🌧️ Rainjar — Rainfall Monitor")
 
 MONTH_NAMES = [
     "", "Jan", "Feb", "Mar", "Apr", "May", "Jun",
